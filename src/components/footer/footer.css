@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+}
+.then{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+@media (max-width:700px) {
+    .footer{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .col{
+        display: none;
+    }
+    .desc{
+        display: none;
+    }
+}
